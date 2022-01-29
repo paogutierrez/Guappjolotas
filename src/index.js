@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Nav from './containers/Nav';
+import Titled from './containers/Title';
+import Buscador from './containers/Buscador';
+import Link from './containers/Link';
 
 
 
@@ -10,7 +13,10 @@ import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Nav />
+    <Titled />
+    <Buscador />
+    <Link />
     
   </React.StrictMode>,
   document.getElementById('root')
